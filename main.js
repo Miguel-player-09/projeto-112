@@ -47,17 +47,17 @@ function gotResult(error, results) {
         if(results[0].label == "perfeito")
         {
             toSpeak = "Isso parece perfeito!";
-            document.getElementById("updateEmoji").innerHTML = "&#128076;";
+            document.getElementById("result_object_gesture_icon").innerHTML = "&#128076;";
         }
         if(results[0].label == "joinha")
         {
              toSpeak = "Isso parece joinha!";
-            document.getElementById("updateEmoji").innerHTML = "&#128077;";
+            document.getElementById("result_object_gesture_icon").innerHTML = "&#128077;";
         }
         if(results[0].label == "vitória")
         {
              toSpeak = "Isso parece vitória!";
-            document.getElementById("updateEmoji").innerHTML = "&#9996;";
+            document.getElementById("result_object_gesture_icon").innerHTML = "&#9996;";
         }
 
         /*repetido
